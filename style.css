@@ -13,3 +13,137 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 */
 
 /* Add your custom styles here */
+
+
+/** LR: Existing code from custom CSS */
+*{-webkit-tap-highlight-color: transparent;
+}
+::selection {
+    background: #C4D018; 
+   }
+
+div.elementor-5502 .elementor-element.elementor-element-d2ff8a4 > .elementor-widget-container {padding: 0;}
+
+@media (max-width: 959px) {
+  div.elementor-5502 .elementor-element.elementor-element-d2ff8a4 > .elementor-widget-container {--e-transform-translateY: -30px;}
+}
+@media (max-width: 1145px) {
+  div.elementor-5502 .elementor-element.elementor-element-d2ff8a4 > .elementor-widget-container {--e-transform-translateY: 10px;
+	--e-transform-translateX: 0;}
+}
+.excerpt_3 .elementor-widget-container { 
+	line-height: 24px !important;
+	letter-spacing: 0 !important;
+}
+.excerpt_3 {height: 76px;}
+.page-id-5502 .default-theme-only
+	display: none;
+}
+
+
+	.elementor-page-5502 div#homepage-logo-white img, .elementor-page-5502 div#mobile-logo-white img {
+    display: none;
+}
+
+
+.elementor-page-5502	div#homepage-logo-black img{
+     display: none;
+}
+
+/* 	div#mobile-logo-green img{
+    display: none !important;
+} */
+
+.home_heading_hover a{
+    color: white !important;
+}
+
+.home_heading_hover_second span {
+    color: #C4D018 !important;
+}
+
+.home_heading_hover_second  svg {
+	fill: #C4D018B8 !important;
+}
+
+.home_heading_hover_third span {
+    color: #FFFFFF !important;
+}
+
+.home_heading_hover_third  svg {
+	fill: #FFFFFFB8 !important;
+}
+
+#footer_inner_column .elementor-widget-container {
+    margin: 0px;
+    --e-transform-translateY: 0;
+}
+
+.wpforms-form input[type=submit],
+.wpforms-form button[type=submit] {
+		width: 100% !important;
+		background-color: #121418 !important;
+		color: #fff !important;
+}
+
+/* Icon Hover */ 
+#arrow-1 {
+    opacity: 1;
+    transition-duration: .75s
+}
+#arrow-1:hover {
+    opacity: 0.72;
+}
+
+.excerpt_3 {  
+   display: -webkit-box;  
+   -webkit-line-clamp: 3;  
+   -webkit-box-orient: vertical;    
+   overflow: hidden;
+}
+
+/* Icon Hover */ 
+.jet-radio-list__button {
+    width: 160px;
+    opacity:1;
+    transition-duration: .75s
+}
+.jet-radio-list__button:hover {
+    opacity:0.72;
+    border-width: 2px;
+    border-color: black !important;
+    
+}
+.jet-radio-list__button {
+    display: flex;
+    justify-content: center;
+}
+.elementor-row {
+    width: 100%;
+    display: flex;
+	align-items:inherit !important;
+}
+
+p: last-child {
+	margin-bottom: 0;
+}
+
+/* New button hover styles */
+.wpforms-form input[type=submit]:hover, 
+.wpforms-form input[type=submit]:active, 
+.wpforms-form button[type=submit]:hover, 
+.wpforms-form button[type=submit]:active, 
+.wpforms-form .wpforms-page-button:hover, 
+.wpforms-form .wpforms-page-button:active {
+    background-color: #121418B8 !important; /* Dark red background */
+}
+.elementor-element .excerpt_3 .elementor-widget-container{
+	overflow: hidden !important;
+	white-space: normal !important;
+	display: -webkit-box !important;
+	-webkit-line-clamp: 3 !important;
+	-webkit-box-orient: vertical !important;
+	-o-text-overflow: ellipsis !important;
+	   text-overflow: ellipsis !important;
+	
+}
